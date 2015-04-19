@@ -51,7 +51,7 @@ Which 5-minute interval, on average across all the days in the dataset, contains
 ```{r max_steps}
 max_interval<-steps_interval[which.max(steps_interval$steps), ]
 ```
-The highest average number of steps was `r max_interval$steps` in the `r max_interval$interval`^th^ interval.  
+The highest average number of steps was 206 in the 835^th^ interval.  
 
 **Imputing missing values**
 The total number of missing values in the dataset.

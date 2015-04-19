@@ -6,27 +6,6 @@ Load the required packages to R.
 ```r
 library(plyr)
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:plyr':
-## 
-##     arrange, count, desc, failwith, id, mutate, rename, summarise,
-##     summarize
-## 
-## The following object is masked from 'package:stats':
-## 
-##     filter
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(lattice)
 ```
 
@@ -83,7 +62,7 @@ Which 5-minute interval, on average across all the days in the dataset, contains
 ```r
 max_interval<-steps_interval[which.max(steps_interval$steps), ]
 ```
-The highest average number of steps was  in the ^th^ interval.  
+The highest average number of steps was 206 in the 835^th^ interval.  
 
 **Imputing missing values**
 The total number of missing values in the dataset.
